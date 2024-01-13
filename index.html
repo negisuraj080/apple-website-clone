@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <ul class="list">
+        <li class="applelogo">
+          <svg class="header-icon icon icon-logo" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z">
+            </path>
+          </svg>
+        </li>
+        <li class="list_item">Store</li>
+        <li class="list_item">Mac</li>
+        <li class="list_item">iPad</li>
+        <li class="list_item">Watch</li>
+        <li class="list_item">Airpods</li>
+        <li class="list_item">TV</li>
+        <li class="list_item">Entertainment</li>
+        <li class="list_item">Accessories</li>
+        <li class="list_item">Support</li>
+        <li class="search-logo">
+          <svg class="header-icon icon icon-search" xmlns="http://www.w3.org/2000/svg" width="15px" viewBox="0 0 15 44">
+            <path
+              d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z">
+            </path>
+          </svg>
+        </li>
+        <li class="cart-logo">
+          <svg class="header-icon icon icon-cart" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z">
+            </path>
+          </svg>
+        </li>
+        <li class="hamburger">
+          <svg class="header-icon icon icon-hamburger" width="18" viewBox="0 0 18 18">
+            <polyline id="globalnav-menutrigger-bread-bottom" fill="none" stroke="currentColor" stroke-width="1.2"
+              stroke-linecap="round" stroke-linejoin="round" points="2 12, 16 12"
+              class="globalnav-menutrigger-bread globalnav-menutrigger-bread-bottom">
+              <animate id="globalnav-anim-menutrigger-bread-bottom-open" attributeName="points" keyTimes="0;0.5;1"
+                dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1"
+                values=" 2 12, 16 12; 2 9, 16 9; 3.5 15, 15 3.5"></animate>
+              <animate id="globalnav-anim-menutrigger-bread-bottom-close" attributeName="points" keyTimes="0;0.5;1"
+                dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1"
+                values=" 3.5 15, 15 3.5; 2 9, 16 9; 2 12, 16 12"></animate>
+            </polyline>
+            <polyline id="globalnav-menutrigger-bread-top" fill="none" stroke="currentColor" stroke-width="1.2"
+              stroke-linecap="round" stroke-linejoin="round" points="2 5, 16 5"
+              class="globalnav-menutrigger-bread globalnav-menutrigger-bread-top">
+              <animate id="globalnav-anim-menutrigger-bread-top-open" attributeName="points" keyTimes="0;0.5;1"
+                dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1"
+                values=" 2 5, 16 5; 2 9, 16 9; 3.5 3.5, 15 15"></animate>
+              <animate id="globalnav-anim-menutrigger-bread-top-close" attributeName="points" keyTimes="0;0.5;1"
+                dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1"
+                values=" 3.5 3.5, 15 15; 2 9, 16 9; 2 5, 16 5"></animate>
+            </polyline>
+          </svg>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div style="font-size: 14px" class="ad">
+      Last chance to save up to ₹10000.00 instantly on eligible products with
+      HDFC Bank Credit Cards.<br />
+      Footnote §§ Plus No Cost EMI from most leading banks. Footnote §<a href="" style="color: rgb(189, 60, 17)">
+        See offers ></a>
+    </div>
+
+    <section>
+      <div id="container">
+        <div class="message">
+          <b style="color: black">Store.</b> The best way to buy the <br />
+          products you love.
+        </div>
+
+        <div class="help">
+          <div class="ask-specialist">
+            <div class="girlpic">
+              <img
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-chat-specialist-icon-202305_AV1?wid=35&hei=35&fmt=jpeg&qlt=95&.v=1684947928825"
+                alt="girl-image" />
+            </div>
+
+            <div class="ask-specialist-child">
+              <div>Need shopping help?</div>
+              <a class="specialist" href="/">Ask a Specialist</a>
+            </div>
+          </div>
+
+          <div class="visit-apple">
+            <div class="apple-logo">
+              <svg width="35" height="35" viewBox="0 0 25 35" class="dd-glyph-svg dd-glyph-base" aria-hidden="true">
+                <path d="m0 0h25v35h-25z" fill="none"></path>
+                <path
+                  d="m12.4934 4.675a10.5617 10.5617 0 0 1 4.177.8275 10.8868 10.8868 0 0 1 5.7467 5.747 10.4988 10.4988 0 0 1 .8329 4.1777 10.3219 10.3219 0 0 1 -.6421 3.5951 10.8948 10.8948 0 0 1 -1.8669 3.2062 12.8406 12.8406 0 0 1 -2.9537 2.5775c-.984.6179-1.8226 1.1843-2.4931 1.6839a9.5187 9.5187 0 0 0 -1.7742 1.6788 6.8587 6.8587 0 0 0 -1.02 1.8034 6.8213 6.8213 0 0 0 -1.0278-1.8062 9.8247 9.8247 0 0 0 -1.7708-1.6742c-.6644-.4987-1.5014-1.0658-2.485-1.6834a12.5961 12.5961 0 0 1 -2.9617-2.5777 10.99 10.99 0 0 1 -1.8636-3.2083 10.3421 10.3421 0 0 1 -.6411-3.5951 10.5153 10.5153 0 0 1 .8319-4.1772 10.9669 10.9669 0 0 1 2.3209-3.4333 10.85 10.85 0 0 1 3.4278-2.3142 10.52 10.52 0 0 1 4.1628-.8275m0-1a11.4634 11.4634 0 0 0 -4.5561.9081 11.89 11.89 0 0 0 -6.2738 6.2709 11.4566 11.4566 0 0 0 -.9135 4.5732 11.2871 11.2871 0 0 0 .703 3.9416 11.9349 11.9349 0 0 0 2.0323 3.5006 13.5349 13.5349 0 0 0 3.1956 2.7835q1.446.9079 2.42 1.6384a8.7962 8.7962 0 0 1 1.5912 1.5 5.9225 5.9225 0 0 1 .9731 1.81q.25.7236.8285.7238t.8417-.7238a5.9779 5.9779 0 0 1 .967-1.81 8.4991 8.4991 0 0 1 1.59-1.5q.98-.73 2.4268-1.6384a13.7877 13.7877 0 0 0 3.19-2.7835 11.8367 11.8367 0 0 0 2.0373-3.5006 11.263 11.263 0 0 0 .7041-3.9416 11.44 11.44 0 0 0 -.9145-4.5732 11.8867 11.8867 0 0 0 -6.2717-6.2709 11.5044 11.5044 0 0 0 -4.57-.9081zm3.8566 9.71a2.3254 2.3254 0 0 0 -1.078 1.94 2.2152 2.2152 0 0 0 1.353 2.0506 4.7326 4.7326 0 0 1 -.693 1.4443c-.429.6174-.902 1.2458-1.584 1.2458-.693 0-.858-.4079-1.661-.4079-.77 0-1.045.4189-1.672.4189-.638 0-1.078-.5733-1.584-1.29a6.3114 6.3114 0 0 1 -1.056-3.3625 2.7185 2.7185 0 0 1 2.541-3.0208c.682 0 1.232.441 1.65.441.407 0 1.023-.4631 1.782-.4631a2.3483 2.3483 0 0 1 2.002 1.0036zm-3.729-1.1135c-.055 0-.099-.0111-.143-.0111 0-.033-.011-.11-.011-.1874a2.26 2.26 0 0 1 .561-1.3781 2.19 2.19 0 0 1 1.485-.7717 1.0735 1.0735 0 0 1 .011.1984 2.3284 2.3284 0 0 1 -.528 1.4222 1.9664 1.9664 0 0 1 -1.375.7276z">
+                </path>
+              </svg>
+            </div>
+
+            <div class="visit-apple-child">
+              <div>Visit an Apple Store</div>
+              <div><a class="findnear" href="/">Find one near you ></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="scroll-bar1">
+      <div class="product">
+        <div class="product-images">
+          <img width="119" height="77" alt="mac"
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-mac-nav-202310?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1696964122666"
+            srcset="
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-mac-nav-202310?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1696964122666,
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-mac-nav-202310?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1696964122666 2x
+              " />
+        </div>
+        <div class="name-text">
+          <p>Mac</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-images">
+          <img width="119" height="77" alt="iPhone"
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_EMEA?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1692971740071"
+            srcset="
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_EMEA?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1692971740071,
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_EMEA?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1692971740071 2x
+              " />
+        </div>
+        <div class="name-text">
+          <p>iPhone</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-images">
+          <img width="119" height="77" alt="iPad"
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1664912135437"
+            srcset="
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1664912135437,
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1664912135437 2x
+              " />
+        </div>
+        <div class="name-text">
+          <p>iPad</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-images">
+          <img width="119" height="77" alt="Apple Watch"
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-watch-nav-202309_GEO_IN?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1693703814407"
+            srcset="
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-watch-nav-202309_GEO_IN?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1693703814407,
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-watch-nav-202309_GEO_IN?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1693703814407 2x
+              " />
+        </div>
+        <div class="name-text">
+          <p>Apple Watch</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-images">
+          <img width="119" height="77" alt="AirPods"
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1660676485885"
+            srcset="
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1660676485885,
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1660676485885 2x
+              " />
+        </div>
+        <div class="name-text">
+          <p>AirPods</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-images">
+          <img width="119" height="77" alt="Air Tag"
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1625783380000"
+            srcset="
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1625783380000,
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1625783380000 2x
+              " />
+        </div>
+        <div class="name-text">
+          <p>Air Tag</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-images">
+          <img width="119" height="77" alt="Apple TV 4K"
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1664628458484"
+            srcset="
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1664628458484,
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1664628458484 2x
+              " />
+        </div>
+        <div class="name-text">
+          <p>Apple TV 4K</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-images">
+          <img width="119" height="77" alt="HomePod"
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1670389216654"
+            srcset="
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1670389216654,
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1670389216654 2x
+              " />
+        </div>
+        <div class="name-text">
+          <p>HomePod</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-images">
+          <img width="119" height="77" alt="Accessories"
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-accessories-nav-202309?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1692803114952"
+            srcset="
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-accessories-nav-202309?wid=200&amp;hei=130&amp;fmt=png-alpha&amp;.v=1692803114952,
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-accessories-nav-202309?wid=400&amp;hei=260&amp;fmt=png-alpha&amp;.v=1692803114952 2x
+              " />
+        </div>
+        <div class="name-text">
+          <p>Accessories</p>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div id="heading">
+        <h2 class="Heading-Line1">The Latest.</h2>
+        <span class="Heading-Line2">Take a look at what’s new right now.</span>
+      </div>
+
+      <div class="scroll-bar2">
+        <div class="item-container">
+          <div class="phone-image">
+            <img width="400" height="500" alt="iPhone"
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1692719973220"
+              srcset="
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1692719973220,
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1692719973220 2x
+              " class="rf-ccard-img-full" />
+          </div>
+          <div class="text-container">
+            <div class="item-name">IPHONE 15</div>
+            <div class="item-model">Newphoria</div>
+            <div class="price">From ₹79900.00‡</div>
+          </div>
+        </div>
+
+        <div class="item-container">
+          <div class="iphone-titanium">
+            <img width="400" height="500" alt=""
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1692910040844"
+              srcset="
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1692910040844,
+                https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1692910040844 2x
+              " class="rf-ccard-img-full" />
+          </div>
+
+          <div class="text-container">
+            <div class="item-name item-name-color">IPHONE 15 PRO</div>
+            <div class="item-model item-model-color">Titanium</div>
+            <div class="price price-color">From ₹134900.00‡</div>
+          </div>
+        </div>
+
+        <div class="item-container">
+          <div class="macbook-pro">
+            <img width="400" height="500" alt=""
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1696964122967"
+              srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1696964122967, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1696964122967 2x"
+              class="rf-ccard-img-full">
+          </div>
+
+          <div class="text-container">
+            <div class="item-name">MACBOOK PRO 14" and 16"</div>
+            <div class="item-model">Mind-Blowing <br>Head-Turning</div>
+            <div class="price">From ₹169900.00‡</div>
+          </div>
+        </div>
+
+        <div class="item-container">
+          <div class="macbook-pro">
+            <img width="400" height="500" alt=""
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watch-s9-202309_GEO_IN?wid=400&amp;hei=500&amp;fmt=jpeg&amp;qlt=95&amp;.v=1693501324197"
+              srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watch-s9-202309_GEO_IN?wid=400&amp;hei=500&amp;fmt=jpeg&amp;qlt=95&amp;.v=1693501324197, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watch-s9-202309_GEO_IN?wid=800&amp;hei=1000&amp;fmt=jpeg&amp;qlt=95&amp;.v=1693501324197 2x"
+              class="rf-ccard-img-full">
+          </div>
+
+          <div class="text-container">
+            <div class="item-name item-name-color">APPLE WATCH SERIES 9</div>
+            <div class="item-model item-model-color">Smarter.Brighter.Mightier</div>
+            <div class="price price-color">From ₹41900.00‡</div>
+          </div>
+        </div>
+
+        <div class="item-container">
+          <div class="macbook-pro">
+            <img width="400" height="500" alt=""
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-veteran-202309?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1700069399720"
+              srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-veteran-202309?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1700069399720, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-veteran-202309?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1700069399720 2x"
+              class="rf-ccard-img-full">
+          </div>
+
+          <div class="text-container">
+            <div class="item-name">PAYMENT OPTIONS</div>
+            <div class="item-model">Flexible ways to pay <br>Plus instant savings§§ <br></div>
+            <div class="price">and No Cost EMI</div>
+          </div>
+        </div>
+
+        <div class="item-container">
+          <div class="macbook-pro">
+            <img width="400" height="500" alt=""
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-ipad-202310_GEO_IN?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1696875268001"
+              srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-ipad-202310_GEO_IN?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1696875268001, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-ipad-202310_GEO_IN?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1696875268001 2x"
+              class="rf-ccard-img-full">
+          </div>
+
+          <div class="text-container">
+            <div class="item-name">IPAD</div>
+            <div class="item-model">Loveable. Drawable. <br> Magical. <br></div>
+            <div class="price">From ₹39900.00‡</div>
+          </div>
+        </div>
+
+        <div class="item-container">
+          <div class="macbook-pro">
+            <img width="400" height="500" alt=""
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watch-ultra-202309_GEO_IN?wid=400&amp;hei=500&amp;fmt=jpeg&amp;qlt=95&amp;.v=1693861933617"
+              srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watch-ultra-202309_GEO_IN?wid=400&amp;hei=500&amp;fmt=jpeg&amp;qlt=95&amp;.v=1693861933617, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watch-ultra-202309_GEO_IN?wid=800&amp;hei=1000&amp;fmt=jpeg&amp;qlt=95&amp;.v=1693861933617 2x"
+              class="rf-ccard-img-full">
+          </div>
+
+          <div class="text-container">
+            <div class="item-name">APPLE WATCH ULTRA 2</div>
+            <div class="item-model">Next-level adventure</div>
+            <div class="price">From ₹89900.00‡</div>
+          </div>
+        </div>
+
+        <div class="item-container">
+          <div class="macbook-pro">
+            <img width="400" height="500" alt="15-inch MacBook Air, partially open, circular feet, strikingly thin."
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-air-202306?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1683844828182"
+              srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-air-202306?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1683844828182, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-air-202306?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1683844828182 2x"
+              class="rf-ccard-img-full">
+          </div>
+
+          <div class="text-container">
+            <div class="item-name">MACBOOK AIR 15"</div>
+            <div class="item-model">Impressively big. <br>Impossibly thin.</div>
+            <div class="price">From ₹134900.00‡</div>
+          </div>
+        </div>
+
+        <div class="item-container">
+          <div class="macbook-pro">
+            <img width="400" height="500" alt=""
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-ipad-air-202203?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1645636337374"
+              srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-ipad-air-202203?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1645636337374, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-ipad-air-202203?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1645636337374 2x"
+              class="rf-ccard-img-full">
+          </div>
+
+          <div class="text-container">
+            <div class="item-name item-name-color">IPAD AIR</div>
+            <div class="item-model item-model-color">Light.Bright.Full of might.</div>
+            <div class="price price-color">From ₹59900.00‡</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="productred-section">
+      <div class="Heading2">
+        <div>
+          <h2 class="Heading-Line1">PRODUCT(RED).</h2>
+        </div>
+        <div class="Heading-Line2">A collection that makes a world of difference.</div>
+      </div>
+
+      <div class="scroll-bar3">
+        <div class="item-conatiner2">
+          <div><img width="400" height="500"
+              alt="Collection of (PRODUCT)RED Apple products including (PRODUCT)RED iPhone 14 Plus, (PRODUCT)RED iPhone SE, (PRODUCT)RED Apple Watch Series 9 with PRODUCT(RED) Sport Band, (PRODUCT)RED Silicone iPhone 14 Pro case, (PRODUCT)RED iPhone 14 and (PRODUCT)RED Silicone iPhone 14 case."
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-merch-card-productred-202311?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1698942978880"
+              srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-merch-card-productred-202311?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1698942978880, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-merch-card-productred-202311?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1698942978880 2x"
+              class="rf-ccard-img-full"></div>
+
+
+          <div class="text-container2">
+            <div class="item-name1">Choose (RED).<br>Save Lives.</div>
+            <div class="item-line1">Every Apple (PRODUCT)RED purchase <br>helps fund the fight against AIDS.∆∆</div>
+          </div>
+        </div>
+
+
+
+        <div class="iphone-red">
+          <div class="text">
+            <div class="product-color">(PRODUCT)RED</div>
+            <div class="item-model1">iphone14 & <br>iphone14 Plus</div>
+          </div>
+
+          <div>
+            <img width="340" height="264"
+              alt="Image of (PRODUCT)RED iPhone 14 Plus back casing and (PRODUCT)RED iPhone 14 front screen"
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-productred-iphone14-202311?wid=340&amp;hei=264&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1698446319581"
+              srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-productred-iphone14-202311?wid=340&amp;hei=264&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1698446319581, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-productred-iphone14-202311?wid=680&amp;hei=528&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1698446319581 2x"
+              class="rf-hcard-img">
+          </div>
+          <div class="container2">
+            <div class="product-red">PRODUCT RED</div>
+            <div class="button-container">
+              <div>From ₹10983.00/mo. with instant savings <br> and No Cost EMIs or ₹69900.00</div>
+              <div><button class="buy-button">Buy</button></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="iphone-red">
+          <div class="text">
+            <div class="product-color">(PRODUCT)RED</div>
+            <div class="item-model1">Apple Watch Series 9</div>
+          </div>
+
+          <div>
+            <img width="340" height="264" alt="Image of (PRODUCT)RED Apple Watch Series 9 with (RED) Sport Band. "
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-productred-watch-202311?wid=340&amp;hei=264&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1698446319887"
+              srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-productred-watch-202311?wid=340&amp;hei=264&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1698446319887, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-40-productred-watch-202311?wid=680&amp;hei=528&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1698446319887 2x"
+              class="rf-hcard-img">
+          </div>
+          <div class="container2">
+            <div class="product-red" id="product2">PRODUCT RED</div>
+            <div class="button-container">
+              <div>From ₹41900.00‡</div>
+              <div><button class="buy-button">Buy</button></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="iphone-red">
+
+
+          <div class="red-image">
+            <img width="253" height="230" alt="Image of (PRODUCT)RED 41mm Sport Band "
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-productred-band-202311?wid=253&amp;hei=230&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1699552876331"
+              srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-productred-band-202311?wid=253&amp;hei=230&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1699552876331, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-productred-band-202311?wid=506&amp;hei=460&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1699552876331 2x">
+          </div>
+          <div class="container2">
+            <div class="product-red" id="product2">PRODUCT RED</div>
+            <div class="product-des">
+              <div>
+                <h4> 45mm (PRODUCT) RED Sport <br> Band - S/M</h4>
+              </div>
+              <div>From ₹783.00/mo. with EMI, MRP <br> ₹4500.00 <br>(Incl. of all taxes)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="iphone-red">
+
+
+          <div class="red-image">
+            <img width="253" height="230" alt="Image of (PRODUCT)RED iPhone 14 Silicone Case"
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-productred-case-14-202311?wid=253&amp;hei=230&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1698443950240"
+              srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-productred-case-14-202311?wid=253&amp;hei=230&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1698443950240, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-productred-case-14-202311?wid=506&amp;hei=460&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1698443950240 2x">
+          </div>
+          <div class="container2">
+            <div class="product-red" id="product2">PRODUCT RED</div>
+            <div class="product-des">
+              <div>
+                <h4> iPhone 14 Silicone Case with <br> MagSafe - (PRODUCT)RED</h4>
+              </div>
+              <div>From ₹853.00/mo. with EMI, MRP <br> ₹4900.00 <br>(Incl. of all taxes)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="iphone-red">
+
+
+          <div class="red-image">
+            <img width="253" height="230" alt="Image of (PRODUCT)RED iPhone SE Silicone Case"
+              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-productred-case-se-202311?wid=253&amp;hei=230&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1698443950681"
+              srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-productred-case-se-202311?wid=253&amp;hei=230&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1698443950681, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/wad-productred-case-se-202311?wid=506&amp;hei=460&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1698443950681 2x">
+          </div>
+          <div class="container2">
+            <div class="product-red" id="product2">PRODUCT RED</div>
+            <div class="product-des">
+              <div>
+                <h4> iPhone SE Silicone Case<br>(PRODUCT)RED</h4>
+              </div>
+              <div>From ₹609.00/mo. with EMI, MRP <br> ₹3500.00 <br>(Incl. of all taxes)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="Heading2">
+      <div>
+        <h2 class="Heading-Line1">The Apple Store difference. </h2>
+      </div>
+      <div class="Heading-Line2"> Even more reasons to shop with us.</div>
+    </div>
+
+
+    <section class="scroll-bar4">
+
+
+      <div class="exchange-wrapper">
+        <div class="exchange-container">
+          <svg class="logo-svg" viewBox="0 0 43 56" xmlns="http://www.w3.org/2000/svg"
+            class="as-svgicon as-svgicon-financing as-svgicon-elevated as-svgicon-financingelevated" aria-hidden="true"
+            role="img">
+            <path d="m0 0h43v56h-43z" fill="none"></path>
+            <path
+              d="m38.5 27a.99974.99974 0 0 0 -1 1v11a5.00588 5.00588 0 0 1 -5 5h-22a5.00588 5.00588 0 0 1 -5-5v-3.83594l1.543 1.543a.99989.99989 0 1 0 1.414-1.41406l-3.25-3.25a.99962.99962 0 0 0 -1.41406 0l-3.25 3.25a.99989.99989 0 1 0 1.41406 1.414l1.543-1.543v3.836a7.00818 7.00818 0 0 0 7 7h22a7.00818 7.00818 0 0 0 7-7v-11a.99974.99974 0 0 0 -1-1z"
+              fill="#007AFF"></path>
+            <path
+              d="m28.17188 32.71533a.31074.31074 0 0 0 -.35157.35156q0 .334.35157.334h2.62792a.29915.29915 0 0 0 .34278-.334.30692.30692 0 0 0 -.34278-.35156z"
+              fill="#007AFF"></path>
+            <path
+              d="m30.60156 21.32031a1.92007 1.92007 0 0 0 -1.40136-.47021h-15.75a1.94085 1.94085 0 0 0 -1.376.47021 1.81128 1.81128 0 0 0 -.50488 1.39307v10.43262h-.92481a.95033.95033 0 0 0 -.70312.29443 1.00858 1.00858 0 0 0 0 1.41553.9536.9536 0 0 0 .70312.29394h20.74416a1.96828 1.96828 0 0 0 1.415-.51855 1.78331 1.78331 0 0 0 .54492-1.35352v-8.376a1.78328 1.78328 0 0 0 -.54492-1.35352 1.96828 1.96828 0 0 0 -1.415-.51855h-.30762v-.31641a1.8689 1.8689 0 0 0 -.47949-1.39304zm-4.99609 3.58155v8.24414h-12.62109v-10.03711a.74576.74576 0 0 1 .84374-.84375h14.99415a.85949.85949 0 0 1 .63281.21093.827.827 0 0 1 .19971.55372h-2.08936a1.96828 1.96828 0 0 0 -1.415.51855 1.78328 1.78328 0 0 0 -.54496 1.35352zm5.53711-.334v-.35156h.09668a.94481.94481 0 0 1 .67676.23291.83527.83527 0 0 1 .24609.63721v8.00683a.83528.83528 0 0 1 -.24609.63721.94481.94481 0 0 1 -.67676.23291h-3.51563a.95761.95761 0 0 1 -.68554-.23291.83525.83525 0 0 1 -.2461-.63721v-8.00682a.83524.83524 0 0 1 .2461-.63721.95761.95761 0 0 1 .68554-.23291h.09668v.35156a.52959.52959 0 0 0 .14063.37793.48342.48342 0 0 0 .36914.14941h2.30273a.48342.48342 0 0 0 .36914-.14941.52959.52959 0 0 0 .14063-.37793z"
+              fill="#007AFF"></path>
+            <path
+              d="m42.457 19.293a.99962.99962 0 0 0 -1.41406 0l-1.543 1.543v-3.836a7.00818 7.00818 0 0 0 -7-7h-22a7.00818 7.00818 0 0 0 -7 7v11a1 1 0 0 0 2 0v-11a5.00588 5.00588 0 0 1 5-5h22a5.00588 5.00588 0 0 1 5 5v3.83594l-1.543-1.543a.99989.99989 0 0 0 -1.41394 1.41406l3.25 3.25a.99963.99963 0 0 0 1.41406 0l3.25-3.25a.99962.99962 0 0 0 -.00006-1.414z"
+              fill="#007AFF"></path>
+          </svg>
+        </div>
+        <div class="des-text">
+          <span class="hightlight-text">Exchange your <br> smartphone,</span> get <br> ₹16000.00 - <br> ₹64800.00 in
+          credit <br> towards a new one.*
+        </div>
+      </div>
+
+
+      <div class="customize-wrapper">
+        <div>
+          <div>
+            <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 56"
+              class="as-svgicon as-svgicon-applelogo as-svgicon-elevated" aria-hidden="true" role="img">
+              <g>
+                <rect width="29" height="56" fill="none"></rect>
+                <defs id="defs2334">
+                  <linearGradient id="linearGradient2904">
+                    <stop style="stop-color:#f8ab5e;stop-opacity:1" offset="0" id="stop2900"></stop>
+                    <stop style="stop-color:#f3695f;stop-opacity:1" offset="1" id="stop2902"></stop>
+                  </linearGradient>
+                  <linearGradient xlink:href="#linearGradient2904" id="linearGradient2906" x1="0.16650136"
+                    y1="23.976196" x2="15.151624" y2="23.976196" gradientUnits="userSpaceOnUse"></linearGradient>
+                </defs>
+                <g>
+                  <path id="path2324"
+                    d="m 14.9,14.43 a 2.581,2.581 0 0 1 -0.472,-0.045 3.083,3.083 0 0 1 -0.067,-0.629 7.531,7.531 0 0 1 1.909,-4.694 7.76,7.76 0 0 1 5.1,-2.628 3.329,3.329 0 0 1 0.067,0.7 7.745,7.745 0 0 1 -1.837,4.825 6.728,6.728 0 0 1 -4.7,2.471 z m 12.807,3.818 a 7.851,7.851 0 0 0 -3.751,6.6 7.64,7.64 0 0 0 4.649,7.008 18.257,18.257 0 0 1 -2.381,4.919 c -1.482,2.134 -3.032,4.268 -5.391,4.268 -2.359,0 -2.965,-1.37 -5.683,-1.37 -2.65,0 -3.594,1.415 -5.75,1.415 -2.156,0 -3.661,-1.977 -5.391,-4.4 A 21.279,21.279 0 0 1 0.395,25.211 c 0,-6.738 4.38,-10.31 8.692,-10.31 2.291,0 4.2,1.5 5.638,1.5 1.37,0 3.5,-1.595 6.109,-1.595 a 8.172,8.172 0 0 1 6.873,3.442 z"
+                    style="fill-opacity:1;fill:url(#linearGradient2906)"></path>
+
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="des-text">
+            <span class="highlight-text2">Customise your Mac.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="exchange-wrapper">
+        <div class="exchange-container">
+          <svg height="56" viewBox="0 0 35 35" width="56"
+            class="as-svgicon as-svgicon-personalization as-svgicon-elevated as-svgicon-personalizationelevated"
+            role="img" aria-hidden="true">
+            <path d="m0 0h35v35h-35z" fill="none"></path>
+            <path
+              d="m17.5 6.1a11.4 11.4 0 1 1 -11.4 11.4 11.4129 11.4129 0 0 1 11.4-11.4m0-1.1a12.5 12.5 0 1 0 12.5 12.5 12.5 12.5 0 0 0 -12.5-12.5zm3.7707 11.3121a1.213 1.213 0 0 0 .9343-.4539 1.8075 1.8075 0 0 0 0-2.269 1.213 1.213 0 0 0 -.9343-.4539 1.2009 1.2009 0 0 0 -.921.4539 1.7981 1.7981 0 0 0 0 2.2624 1.1946 1.1946 0 0 0 .921.4605zm-7.5547 0a1.2454 1.2454 0 0 0 .9476-.4605 1.764 1.764 0 0 0 .0067-2.2624 1.2454 1.2454 0 0 0 -.9543-.4539 1.1813 1.1813 0 0 0 -.9143.4539 1.8311 1.8311 0 0 0 0 2.269 1.1813 1.1813 0 0 0 .9143.4539zm11.9727 2.2157a.655.655 0 0 0 -.6407-.08 27.5372 27.5372 0 0 1 -3.6906.861 24.1545 24.1545 0 0 1 -3.8507.3 24.2809 24.2809 0 0 1 -3.8575-.3 26.9794 26.9794 0 0 1 -3.6839-.861.6922.6922 0 0 0 -.6607.08.6079.6079 0 0 0 -.18.6139 7.7434 7.7434 0 0 0 1.4015 3.6306 8.5219 8.5219 0 0 0 2.9765 2.5961 8.3779 8.3779 0 0 0 4.0043.9677 8.35 8.35 0 0 0 3.9909-.9677 8.5849 8.5849 0 0 0 2.9832-2.5961 7.5976 7.5976 0 0 0 1.3948-3.6306.6384.6384 0 0 0 -.1871-.6139zm-1.4815 2.83a23.8689 23.8689 0 0 1 -3.3169.7008 24.6667 24.6667 0 0 1 -3.3836.2335 24.8628 24.8628 0 0 1 -3.3837-.2335 23.7823 23.7823 0 0 1 -3.33-.7008 6.2135 6.2135 0 0 1 -.694-1.8686 27.7532 27.7532 0 0 0 3.6171.7875 25.529 25.529 0 0 0 3.7908.28 25.5717 25.5717 0 0 0 3.784-.28 27.1787 27.1787 0 0 0 3.61-.7875 6.0407 6.0407 0 0 1 -.6937 1.8682z"
+              fill="#AB39FF"></path>
+          </svg>
+        </div>
+        <div class="des-text">
+          Make them yours. <br>
+          <span class="highlight-text4">Engrave a mix of emoji, names and numbers for free.</span>
+        </div>
+      </div>
+
+      <div class="exchange-wrapper">
+        <div class="exchange-container">
+          <svg height="56" viewBox="0 0 35 35" width="56"
+            class="as-svgicon as-svgicon-personalization as-svgicon-elevated as-svgicon-personalizationelevated"
+            role="img" aria-hidden="true">
+            <path d="m0 0h35v35h-35z" fill="none"></path>
+            <path
+              d="m17.5 6.1a11.4 11.4 0 1 1 -11.4 11.4 11.4129 11.4129 0 0 1 11.4-11.4m0-1.1a12.5 12.5 0 1 0 12.5 12.5 12.5 12.5 0 0 0 -12.5-12.5zm3.7707 11.3121a1.213 1.213 0 0 0 .9343-.4539 1.8075 1.8075 0 0 0 0-2.269 1.213 1.213 0 0 0 -.9343-.4539 1.2009 1.2009 0 0 0 -.921.4539 1.7981 1.7981 0 0 0 0 2.2624 1.1946 1.1946 0 0 0 .921.4605zm-7.5547 0a1.2454 1.2454 0 0 0 .9476-.4605 1.764 1.764 0 0 0 .0067-2.2624 1.2454 1.2454 0 0 0 -.9543-.4539 1.1813 1.1813 0 0 0 -.9143.4539 1.8311 1.8311 0 0 0 0 2.269 1.1813 1.1813 0 0 0 .9143.4539zm11.9727 2.2157a.655.655 0 0 0 -.6407-.08 27.5372 27.5372 0 0 1 -3.6906.861 24.1545 24.1545 0 0 1 -3.8507.3 24.2809 24.2809 0 0 1 -3.8575-.3 26.9794 26.9794 0 0 1 -3.6839-.861.6922.6922 0 0 0 -.6607.08.6079.6079 0 0 0 -.18.6139 7.7434 7.7434 0 0 0 1.4015 3.6306 8.5219 8.5219 0 0 0 2.9765 2.5961 8.3779 8.3779 0 0 0 4.0043.9677 8.35 8.35 0 0 0 3.9909-.9677 8.5849 8.5849 0 0 0 2.9832-2.5961 7.5976 7.5976 0 0 0 1.3948-3.6306.6384.6384 0 0 0 -.1871-.6139zm-1.4815 2.83a23.8689 23.8689 0 0 1 -3.3169.7008 24.6667 24.6667 0 0 1 -3.3836.2335 24.8628 24.8628 0 0 1 -3.3837-.2335 23.7823 23.7823 0 0 1 -3.33-.7008 6.2135 6.2135 0 0 1 -.694-1.8686 27.7532 27.7532 0 0 0 3.6171.7875 25.529 25.529 0 0 0 3.7908.28 25.5717 25.5717 0 0 0 3.784-.28 27.1787 27.1787 0 0 0 3.61-.7875 6.0407 6.0407 0 0 1 -.6937 1.8682z"
+              fill="rgb(104,204,70)"></path>
+          </svg>
+        </div>
+        <div class="des-text">
+          Flexibile ways to pay. <br>
+          <span class="highlight-text5">
+            Plus instant savings§§ " and No Cost EMI." </span>
+        </div>
+      </div>
+
+      <div class="exchange-wrapper">
+        <div class="exchange-container">
+          <svg class="logo-svg" viewBox="0 0 43 56" xmlns="http://www.w3.org/2000/svg"
+            class="as-svgicon as-svgicon-financing as-svgicon-elevated as-svgicon-financingelevated" aria-hidden="true"
+            role="img">
+            <path d="m0 0h43v56h-43z" fill="none"></path>
+            <path
+              d="m38.5 27a.99974.99974 0 0 0 -1 1v11a5.00588 5.00588 0 0 1 -5 5h-22a5.00588 5.00588 0 0 1 -5-5v-3.83594l1.543 1.543a.99989.99989 0 1 0 1.414-1.41406l-3.25-3.25a.99962.99962 0 0 0 -1.41406 0l-3.25 3.25a.99989.99989 0 1 0 1.41406 1.414l1.543-1.543v3.836a7.00818 7.00818 0 0 0 7 7h22a7.00818 7.00818 0 0 0 7-7v-11a.99974.99974 0 0 0 -1-1z"
+              fill="#007AFF"></path>
+            <path
+              d="m28.17188 32.71533a.31074.31074 0 0 0 -.35157.35156q0 .334.35157.334h2.62792a.29915.29915 0 0 0 .34278-.334.30692.30692 0 0 0 -.34278-.35156z"
+              fill="#007AFF"></path>
+            <path
+              d="m30.60156 21.32031a1.92007 1.92007 0 0 0 -1.40136-.47021h-15.75a1.94085 1.94085 0 0 0 -1.376.47021 1.81128 1.81128 0 0 0 -.50488 1.39307v10.43262h-.92481a.95033.95033 0 0 0 -.70312.29443 1.00858 1.00858 0 0 0 0 1.41553.9536.9536 0 0 0 .70312.29394h20.74416a1.96828 1.96828 0 0 0 1.415-.51855 1.78331 1.78331 0 0 0 .54492-1.35352v-8.376a1.78328 1.78328 0 0 0 -.54492-1.35352 1.96828 1.96828 0 0 0 -1.415-.51855h-.30762v-.31641a1.8689 1.8689 0 0 0 -.47949-1.39304zm-4.99609 3.58155v8.24414h-12.62109v-10.03711a.74576.74576 0 0 1 .84374-.84375h14.99415a.85949.85949 0 0 1 .63281.21093.827.827 0 0 1 .19971.55372h-2.08936a1.96828 1.96828 0 0 0 -1.415.51855 1.78328 1.78328 0 0 0 -.54496 1.35352zm5.53711-.334v-.35156h.09668a.94481.94481 0 0 1 .67676.23291.83527.83527 0 0 1 .24609.63721v8.00683a.83528.83528 0 0 1 -.24609.63721.94481.94481 0 0 1 -.67676.23291h-3.51563a.95761.95761 0 0 1 -.68554-.23291.83525.83525 0 0 1 -.2461-.63721v-8.00682a.83524.83524 0 0 1 .2461-.63721.95761.95761 0 0 1 .68554-.23291h.09668v.35156a.52959.52959 0 0 0 .14063.37793.48342.48342 0 0 0 .36914.14941h2.30273a.48342.48342 0 0 0 .36914-.14941.52959.52959 0 0 0 .14063-.37793z"
+              fill="#007AFF"></path>
+            <path
+              d="m42.457 19.293a.99962.99962 0 0 0 -1.41406 0l-1.543 1.543v-3.836a7.00818 7.00818 0 0 0 -7-7h-22a7.00818 7.00818 0 0 0 -7 7v11a1 1 0 0 0 2 0v-11a5.00588 5.00588 0 0 1 5-5h22a5.00588 5.00588 0 0 1 5 5v3.83594l-1.543-1.543a.99989.99989 0 0 0 -1.41394 1.41406l3.25 3.25a.99963.99963 0 0 0 1.41406 0l3.25-3.25a.99962.99962 0 0 0 -.00006-1.414z"
+              fill="#007AFF"></path>
+          </svg>
+        </div>
+        <div class="des-text">
+          <span class="hightlight-text">Exchange your <br> smartphone,</span> get <br> ₹16000.00 - <br> ₹64800.00 in
+          credit <br> towards a new one.*
+        </div>
+      </div>
+    </section>
+
+
+    <div class="Heading2">
+      <div>
+        <h2 class="Heading-Line1">Accessories.</h2>
+      </div>
+      <div class="Heading-Line2">Essentials that pair perfectly with your favourite devices.</div>
+    </div>
+
+    <section class="scrollbar-5">
+      <div class="scoll5-image">
+        <div><img width="400" height="500" alt=""
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-accessories-fine-woven-202309?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1696611441481"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-accessories-fine-woven-202309?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1696611441481, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-accessories-fine-woven-202309?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1696611441481 2x"
+            class="rf-ccard-img-full"></div>
+
+        <div class="scroll-heading">
+          <div class="heading-wrapper">In with the new.</div>
+          <div class="heading-wrapper1">Discover fresh new colors for your <br> favourite accessories</div>
+        </div>
+      </div>
+
+      <div class="scrollbar5-item">
+        <div class="product-image1"><img width="253" height="270"
+            alt="Apple Pencil (USB-C), white, end cap engraving reads, Apple Pencil, the word Apple represented by an Apple logo"
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MUWA3?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1695933856697"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MUWA3?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1695933856697, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MUWA3?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=95&amp;.v=1695933856697 2x">
+        </div>
+
+        <div class="new">New</div>
+        <div>
+          <h3 class="product-name1">Apple Pencil(USB-C)</h3>
+        </div>
+        <div class="product-price">MRP ₹7900.00 (Incl. of all taxes)</div>
+      </div>
+
+      <div class="scrollbar5-item" id="item12">
+        <div class="product-image1" id="pro-image2"><img width="253" height="270"
+            alt="iPhone 15 Pro FineWoven Case with MagSafe in Taupe, embedded Apple logo in centre, attached to iPhone 15 Pro Natural Titanium finish, seen through camera cut-out."
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4J3?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1693594197616"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4J3?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1693594197616, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4J3?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=95&amp;.v=1693594197616 2x">
+        </div>
+
+        <div class="new">New</div>
+        <div>
+          <h3 class="product-name1">iPhone 15 Pro FineWoven <br> Case with MagSafe - Taupe</h3>
+        </div>
+        <div class="product-price1">MRP ₹5900.00 (Incl. of all taxes)</div>
+
+
+      </div>
+
+      <div class="scrollbar5-item" id="item12">
+        <div class="product-image1" id="pro-image2"><img width="253" height="270"
+            alt="Front view of iPhone FineWoven Wallet with MagSafe in Mulberry, card slot at top, embedded Apple logo in the centre."
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT253?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1692994342983"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT253?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1692994342983, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT253?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=95&amp;.v=1692994342983 2x">
+        </div>
+
+        <div class="new">New</div>
+        <div>
+          <h3 class="product-name1">iPhone FineWoven Wallet with <br> MagSafe - Mulberry</h3>
+        </div>
+        <div class="product-price1">MRP ₹5900.00 (Incl. of all taxes)</div>
+      </div>
+
+      <div class="scrollbar5-item" id="item12">
+        <div class="product-image1" id="pro-image2"><img width="253" height="270"
+            alt="Winter Blue Sport Loop strap, light blue woven nylon, hook-and-loop fastener"
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT5H3?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1692936758959"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT5H3?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1692936758959, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT5H3?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=95&amp;.v=1692936758959 2x">
+        </div>
+
+        <div class="new">New</div>
+        <div>
+          <h3 class="product-name1">45mm Winter Blue Sport Loop</h3>
+        </div>
+        <div class="product-price">MRP ₹4500.00 (Incl. of all taxes)</div>
+      </div>
+
+      <div class="scrollbar5-item" id="item12">
+        <div class="product-image1" id="pro-image2"><img width="253" height="270"
+            alt="Light Pink Sport Band, smooth fluoroelastomer with pin-and-tuck closure"
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT3U3ref?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1692936536428"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT3U3ref?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1692936536428, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT3U3ref?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=95&amp;.v=1692936536428 2x">
+        </div>
+
+        <div class="new">New</div>
+        <div>
+          <h3 class="product-name1">45mm Light Pink Sport Band - <br> M/L</h3>
+        </div>
+        <div class="product-price1">MRP ₹4500.00 (Incl. of all taxes)</div>
+      </div>
+
+      <div class="scrollbar5-item" id="item12">
+        <div class="product-image1" id="pro-image2"><img width="253" height="270"
+            alt="iPhone&nbsp;15 Silicone Case with MagSafe in Light Pink, embedded Apple logo in centre, attached to iPhone&nbsp;15 Blue finish, seen through camera cut-out."
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT0U3?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1693000313579"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT0U3?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1693000313579, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT0U3?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=95&amp;.v=1693000313579 2x">
+        </div>
+
+        <div class="new">New</div>
+        <div>
+          <h3 class="product-name1">iPhone 15 Silicone Case with <br> MagSafe - Light Pink</h3>
+        </div>
+        <div class="product-price1">MRP ₹4500.00 (Incl. of all taxes)</div>
+      </div>
+
+
+
+
+
+
+    </section>
+
+    <div class="Heading2">
+      <div>
+        <h2 class="Heading-Line1">Loud and Clear.</h2>
+      </div>
+      <div class="Heading-Line2">Unparalleled choices for rich, high-quality sound.</div>
+    </div>
+
+    <section class="scrollbar-5">
+
+      <div class="scoll5-image">
+        <div><img width="400" height="500" alt=""
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-applemusic-202301?wid=400&amp;hei=500&amp;fmt=jpeg&amp;qlt=95&amp;.v=1670389217380"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-applemusic-202301?wid=400&amp;hei=500&amp;fmt=jpeg&amp;qlt=95&amp;.v=1670389217380, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-applemusic-202301?wid=800&amp;hei=1000&amp;fmt=jpeg&amp;qlt=95&amp;.v=1670389217380 2x"
+            class="rf-ccard-img-full">
+        </div>
+
+        <div class="scroll-heading">
+          <div class="heading-wrapper">Get Apple Music free for 6 <br> months with HomePod and <br>AirPods.⁺ </div>
+          <div class="heading-wrapper1">Included with eligible devices.⁺</div>
+        </div>
+      </div>
+
+      <div class="scrollbar5-item">
+        <div class="product-image1">
+          <img width="253" height="250"
+            alt="Interior AirPods Pro and MagSafe Charging Case, Right and Left Earbud with Noise Cancelling Microphone at Top of Each Bud, Silicone Tip at End of Each Bud. Top of MagSafe Case Open, Attached by Silver Hinge."
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJV3?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1694014871985"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJV3?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1694014871985, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJV3?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=95&amp;.v=1694014871985 2x">
+        </div>
+
+        <div class="new">Free Engraving</div>
+        <div>
+          <h3 class="product-name1">AirPods Pro (2nd generation) <br> with MagSafe Charging Case...</h3>
+        </div>
+        <div class="product-price">MRP ₹24900.00 (Incl. of all taxes)</div>
+      </div>
+
+      <div class="scrollbar5-item">
+        <div class="product-image1">
+          <img width="253" height="270" alt="HomePod in Midnight"
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-select-midnight-202210?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1670557210097"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-select-midnight-202210?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1670557210097, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-select-midnight-202210?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=95&amp;.v=1670557210097 2x">
+        </div>
+
+        <div class="new">New</div>
+        <div>
+          <h3 class="product-name1">HomePod-Midnight<h3>
+        </div>
+        <div class="product-price">MRP ₹32900.00 (Incl. of all taxes)</div>
+      </div>
+
+      <div class="scrollbar5-item">
+        <div class="product-image1">
+          <img width="253" height="270" alt=""
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-mini-select-yellow-202110?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1632925510000"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-mini-select-yellow-202110?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1632925510000, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-mini-select-yellow-202110?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=95&amp;.v=1632925510000 2x">
+        </div>
+
+        <div class="new">New</div>
+        <div>
+          <h3 class="product-name1">HomePod mini-Yellow<h3>
+        </div>
+        <div class="product-price">MRP ₹10900.00 (Incl. of all taxes)</div>
+      </div>
+
+      <div class="scrollbar5-item">
+        <div class="product-image1">
+          <img width="253" height="270"
+            alt="Front view of AirPods Max in Silver next to a side view of AirPods Max headphone exterior."
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-silver-202011?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1604021221000"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-silver-202011?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1604021221000, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-silver-202011?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=95&amp;.v=1604021221000 2x">
+        </div>
+
+        <div class="new">New</div>
+        <div>
+          <h3 class="product-name1">AirPods Max-Silver<h3>
+        </div>
+        <div class="product-price">MRP ₹59900.00 (Incl. of all taxes)</div>
+      </div>
+
+      <div class="scrollbar5-item">
+        <div class="product-image1">
+          <img width="253" height="270"
+            alt="Front view of AirPods (3rd generation) above an open Charging Case, fully charged. "
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1632861342000"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1632861342000, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=95&amp;.v=1632861342000 2x">
+        </div>
+
+        <div class="new">New</div>
+        <div>
+          <h3 class="product-name1">AirPods (3rd generation) with <br>Lightning Charging Case<h3>
+        </div>
+        <div class="product-price1">MRP ₹19900.00 (Incl. of all taxes)</div>
+      </div>
+
+      <div class="scrollbar5-item">
+        <div class="product-image1">
+          <img width="253" height="270" alt="Front view of AirPods (2nd generation) in an open Charging Case. "
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MV7N2?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1551489688005"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MV7N2?wid=200&amp;hei=200&amp;fmt=jpeg&amp;qlt=95&amp;.v=1551489688005, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MV7N2?wid=400&amp;hei=400&amp;fmt=jpeg&amp;qlt=95&amp;.v=1551489688005 2x">
+        </div>
+
+        <div class="new">Free Engraving</div>
+        <div>
+          <h3 class="product-name1">AirPods (2nd generation)<h3>
+        </div>
+        <div class="product-price">MRP ₹12900.00 (Incl. of all taxes)</div>
+      </div>
+    </section>
+
+    <div class="Heading2">
+      <div>
+        <h2 class="Heading-Line1">The Apple experience.</h2>
+      </div>
+      <div class="Heading-Line2">Do even more with Apple products and services.</div>
+    </div>
+
+    <section class="scroll-6">
+      <div class="scroll-bar6">
+        <div class="scroll6-img">
+          <img width="480" height="500"
+            alt="Title, Lessons in Chemistry, Brie Larson stands in front of a worktop, on her right are ingredients for cooking, including eggs, pasta and cheese, on her left are tools for chemistry experiments, including beakers, vials and flasks, her dog looks up at her expectantly, its head peaking just above the worktop."
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-tv-services-lessons-in-chemistry-202310?wid=480&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1696949431686"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-tv-services-lessons-in-chemistry-202310?wid=480&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1696949431686, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-tv-services-lessons-in-chemistry-202310?wid=960&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1696949431686 2x"
+            class="rf-ccard-img-full">
+        </div>
+
+        <div class="scrol6-text">
+          <div class="prouct-name">APPLE TV+</div>
+          <div class="plan">Get 3 months of <br>
+            Apple TV+ free when <br>
+            you buy an Apple device.</div>
+        </div>
+      </div>
+
+      <div class="scroll-bar6">
+        <div class="scroll6-img">
+          <img width="480" height="500" alt=""
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-subscriptions-202108?wid=480&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1626375547000"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-subscriptions-202108?wid=480&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1626375547000, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-subscriptions-202108?wid=960&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1626375547000 2x"
+            class="rf-ccard-img-full">
+        </div>
+
+        <div class="scrol6-text">
+
+          <div class="plan-text">Four Apple services. One easy subscription. </div>
+        </div>
+      </div>
+
+      <div class="scroll-bar6">
+        <div class="scroll6-img">
+          <img width="480" height="500" alt=""
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-applecare-202309?wid=480&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1692730497948"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-applecare-202309?wid=480&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1692730497948, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-applecare-202309?wid=960&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1692730497948 2x"
+            class="rf-ccard-img-full">
+        </div>
+
+        <div class="scrol6-text">
+          <div class="plan-text">We’ve got you covered </div>
+          <div class="plan-text1">AppleCare+ now comes with unlimited <br> repairs for accidental damage protection.
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-bar6">
+        <div class="scroll6-img">
+          <img width="450" height="500" alt=""
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-homekit-202309_GEO_IN?wid=480&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1693758287672"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-homekit-202309_GEO_IN?wid=480&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1693758287672, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-homekit-202309_GEO_IN?wid=960&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1693758287672 2x"
+            class="rf-ccard-img-full">
+        </div>
+
+        <div class="scrol6-text">
+          <div class="prouct-name1">HOME</div>
+          <div class="plan-text">See how one app can <br>control your entire home. </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="Heading2">
+      <div>
+        <h2 class="Heading-Line1">Special stores.</h2>
+      </div>
+      <div class="Heading-Line2">Exclusive savings for students and educators.</div>
+    </div>
+
+    <section class="scroll-6">
+      <div class="scroll-bar6">
+        <div class="scroll6-img">
+          <img width="400" height="500" alt=""
+            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-card-40-education-202108_GEO_IN?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1627664718000"
+            srcset="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-card-40-education-202108_GEO_IN?wid=400&amp;hei=500&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1627664718000, https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-card-40-education-202108_GEO_IN?wid=800&amp;hei=1000&amp;fmt=p-jpg&amp;qlt=95&amp;.v=1627664718000 2x"
+            class="rf-ccard-img-full">
+        </div>
+
+        <div class="scrol6-text">
+          <div class="edu-sec">APPLE TV+</div>
+          <div class="plan-text1">
+            <h3>Save on Mac or iPad with <br> education pricing.</h3>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="lower-section">
+      <div class="quicklink-heading">
+        <h2>Quick Links</h2>
+      </div>
+      <div class="quicklinks-container">
+        <div class="quick-links">Order Status</div>
+        <div class="quick-links">Shopping Help</div>
+        <div class="quick-links">Your Saves</div>
+      </div>
+
+      <div class="para-container">
+        <div>
+          <p>
+            ◊◊ Monthly pricing is after purchase using EMI with qualifying cards at 15% pa over a 6 month tenure.
+            Monthly pricing is rounded to the nearest rupee. Exact pricing will be provided by your bank, subject to
+            your bank’s terms and conditions.
+          </p>
+        </div>
+
+        <div>
+          <p>
+            Representative example: <br>
+            Based on purchase of ₹79900.00. Total amount payable ₹83432.00 paid over 6 months as 6 monthly payments of
+            ₹13905.00 at an interest rate of 15% pa. Total interest paid to <br> bank: ₹3532.00.
+          </p>
+        </div>
+
+        <div>
+          <p>
+            § No Cost EMI is available with the purchase of an eligible product made using eligible cards on 3- or
+            6-month tenures from most leading banks. Monthly pricing is rounded to the nearest rupee. Exact pricing
+            will be provided by your bank, subject to your bank’s terms and conditions. Minimum order spend applies as
+            per your card issuing bank threshold. Offer cannot be combined with Apple Store for Education or Corporate
+            Employee Purchase Plan pricing. Card eligibility is subject to terms and conditions between you and your
+            card issuing bank. Offer may be revised or withdrawn at any time without any prior notice. Additional
+            terms apply.
+          </p>
+        </div>
+
+
+        <div>
+          <p>
+            Representative example: <br>
+            Based on a 6 month tenure. ₹79900.00 total cost includes 15% pa and No Cost EMI savings of ₹3380.00,
+            paid over 6 months as 6 monthly payments of ₹13317.00.
+          </p>
+        </div>
+
+        <div>
+          <p>
+            §§ Instant savings, otherwise referred to as instant cashback, is available with the purchase of an
+            eligible product for qualifying HDFC Bank Credit Cards and EasyEMI Credit Cards only. Minimum transaction
+            value of ₹10001 applies. Click here to see instant savings amounts and eligible devices. Instant savings
+            are available for up to two orders per rolling 90-day period with an eligible card. Card eligibility is
+            subject to terms and conditions between you and your card issuing bank. Total transaction value is
+            calculated after any trade-in credit or eligible discount applied. Any subsequent order adjustment(s) or
+            cancellation(s) may result in instant savings being recalculated, and any refund may be adjusted to
+            account for instant savings clawback; this may result in no refund being made to you. Offer may be revised
+            or withdrawn at any time without any prior notice. Additional terms apply. Offer cannot be combined with
+            Apple Store for Education or Corporate Employee Purchase Plan pricing. Multiple separate orders cannot be
+            combined for instant savings.
+          </p>
+        </div>
+
+        <div>
+          <p>
+            * Trade‑in values will vary based on the condition, year and configuration of your eligible trade‑in
+            device. Not all devices are eligible for credit. You must be at least the age of majority to be eligible
+            to trade in for credit. Trade‑in value may be applied towards a qualifying new device purchase. Actual
+            value awarded is based on receipt of a qualifying device matching the description provided when estimate
+            was made. Sales tax may be assessed on full value of a new device purchase. In-store trade‑in requires
+            presentation of a valid photo ID (local law may require saving this information). Offer may not be
+            available in all stores, and may vary between in-store and online trade‑in. Some stores may have
+            additional requirements. Apple or its trade‑in partners reserve the right to refuse, cancel or limit the
+            quantity of any trade‑in transaction for any reason. More details are available from Apple’s trade‑in
+            partner for trade‑in and recycling of eligible devices. Restrictions and limitations may apply.
+            <br> 2. Special pricing available to qualified customers. To learn more about how to start qualifying for
+            special pricing, talk to an Apple Specialist in a store or give us a call on 000800 040 1966.
+          </p>
+        </div>
+
+        <div>
+          <p>
+            ° New and qualified returning subscribers only. ₹99/month after free trial. Only one offer per Apple ID
+            and only one offer per family if you’re part of a Family Sharing group, regardless of the number of
+            devices that you or your family purchase. This offer is not available if you or your family have
+            previously accepted an Apple TV+ three-months-free or one-year-free offer. Offer valid for three months
+            after eligible device activation. Plan automatically renews until cancelled. Restrictions and other terms
+            apply.
+          </p>
+        </div>
+
+        <div>
+          <p>
+            °° New and qualified returning subscribers only. ₹99/month after free trial. Only one offer per Apple ID
+            and only one offer per family if you’re part of a Family Sharing group, regardless of the number of
+            devices that you or your family purchase. This offer is not available if you or your Family Sharing group
+            have previously accepted an Apple Arcade three-months-free offer. Offer valid for three months after
+            eligible device activation. Plan automatically renews until cancelled. Restrictions and other terms apply.
+
+            ⁺ New subscribers only. ₹99/month after trial. Offer available for a limited time to new subscribers who
+            connect an eligible device to an Apple device running iOS 15 or iPadOS 15 or later. Offer valid for three
+            months after eligible device pairing. No audio product purchase necessary for current owners of eligible
+            devices. Plan automatically renews until cancelled. Restrictions and other terms apply.
+          </p>
+        </div>
+
+
+        <div>
+          <p>
+            ⁺⁺ New subscribers only. Plan automatically renews at your region’s price per month until cancelled.
+            Restrictions and other terms apply. Only one offer per Apple ID, regardless of the number of devices you
+            purchase. Offer cannot be combined with other free trials or offers for Apple Music. With eligible audio
+            devices: Offer is available for a limited time to new subscribers who connect an eligible device to an Apple
+            device running iOS 15 or iPadOS 15 or later. Offer is valid for 3 months after eligible device pairing. No
+            purchase necessary for current owners of eligible audio devices. With the purchase and activation of a new
+            iPhone: Offer is available for a limited time to new subscribers who purchase and activate a new iPhone.
+            Offer is valid for 3 months after eligible iPhone activation.
+          </p>
+        </div>
+
+
+        <div>
+          <p>
+            ‡ Listed pricing is Maximum Retail Price (inclusive of all taxes).
+          </p>
+        </div>
+
+        <div>
+          <p>
+            We use your location to show you delivery options faster. We found your location using your IP address or
+            because you entered it during a previous visit to Apple.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="footer-list">
+      <div class="list-container">
+        <ul>
+          <li>
+            <h5>Shop and learn</h5>
+          </li>
+          <li>Store</li>
+          <li>Mac</li>
+          <li>iPad</li>
+          <li>iPhone</li>
+          <li>Watch</li>
+          <li>Airpods</li>
+          <li>TV & Home/li>
+          <li>AirTag</li>
+          <li>Accessories</li>
+          <li>Gift Cards</li>
+        </ul>
+
+        <ul>
+          <li>
+            <h5>Apple Wallet</h5>
+          </li>
+          <li>Wallet</li>
+        </ul>
+      </div>
+
+      <div class="list-container">
+        <ul>
+          <li>
+            <h5>Account</h5>
+          </li>
+          <li>Manage your apple id</li>
+          <li>Apple Store Account</li>
+          <li>iCloud.com</li>
+        </ul>
+
+        <ul>
+          <li>
+            <h5>Entertainment</h5>
+          </li>
+          <li>Apple One</li>
+          <li>Apple TV+</li>
+          <li>Apple Music</li>
+          <li>Apple Arcade</li>
+          <li>Apple Podcasts</li>
+          <li>Apple Books</li>
+          <li>App Store</li>
+        </ul>
+      </div>
+
+      <div class="list-container">
+        <ul>
+          <li>
+            <h5>Apple Store</h5>
+          </li>
+          <li>Find a Store</li>
+          <li>Genius Bar</li>
+          <li>Today at Apple</li>
+          <li>Apple Summer Camp</li>
+          <li>Ways to Buy</li>
+          <li>Apple Trade In</li>
+          <li>Recycling Programme</li>
+          <li>Order Status</li>
+          <li>Shopping Help</li>
+        </ul>
+      </div>
+
+      <div class="list-container">
+        <ul>
+          <li>
+            <h5>For Business</h5>
+          </li>
+          <li>Apple & Business</li>
+        </ul>
+
+
+        <ul>
+          <li>
+            <h5>For Education</h5>
+          </li>
+          <li>Apple and Education</li>
+          <li>Shop for Education</li>
+          <li>Shop for University</li>
+        </ul>
+
+        <ul>
+          <li>
+            <h5>For Healthcare</h5>
+          </li>
+          <li>Apple in Healthcare</li>
+          <li>Health on Apple Watch</li>
+        </ul>
+      </div>
+
+      <div class="list-container">
+        <ul>
+          <li>
+            <h5>Apple Values</h5>
+          </li>
+          <li>Accessibility</li>
+          <li>Environment</li>
+          <li>Privacy</li>
+          <li>Supplier Responsibility</li>
+        </ul>
+
+
+        <ul>
+          <li>
+            <h5>About Apple</h5>
+          </li>
+          <li>Newsroom</li>
+          <li>Apple Leadership</li>
+          <li>Career Opportunities</li>
+          <li>Investors</li>
+          <li>Ethics & Compliance</li>
+          <li>Events</li>
+          <li>Contact Apple</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="footer-line2">More ways to shop: <a href="#">Find an Apple Store</a> or <a href="#">other retailer</a>
+      near you. Or call 000800 040 1966.</div>
+
+    <div class="last-conatiner">
+      <div class="lastcontainer-child1">
+        <div>Copyright © 2023 Apple Inc. All rights reserved.</div>
+        <div>Privacy Policy</div>
+        <div> Terms of Use</div>
+        <div> Sales Policy</div>
+        <div> Legal</div>
+        <div> Site Map</div>
+      </div>
+
+      <div class="lastcontainer-child2">
+        India
+      </div>
+    </div>
+  </footer>
+</body>
+
+
+</html>
